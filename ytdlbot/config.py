@@ -18,7 +18,7 @@ TOKEN = os.getenv("TOKEN", "6826548928:AAH5Morb65jqvazZAbdJBFwNH2SXkyOjkME")
 
 REDIS = os.getenv("REDIS", "redis")
 
-TG_MAX_SIZE = 2000 * 1024 * 1024
+TG_MAX_SIZE = 5000 * 1024 * 1024
 # TG_MAX_SIZE = 10 * 1024 * 1024
 
 EXPIRE = 24 * 3600
